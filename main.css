@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+:root {
+  --white: #f7f7f7;
+  --black: #202020;
+  --red: #be0000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--white);
+  background-image: url(assets/img-noise.png);
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  height: 2rem;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  flex-wrap: nowrap;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar li {
+  padding: 1.5rem;
+}
+
+.intro {
+  width: 98vw;
+  height: 95vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.intro-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(0.9);
+  display: block;
+  border-radius: 1%;
+  margin: auto;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.main {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.left,
+.middle,
+.right {
+  width: 600px;
+  height: 600px;
+  position: relative;
+}
+
+figure img {
+  width: 100%;
+}
+
+.left-img-1 {
+  min-width: 150px;
+  max-width: 300px;
+  position: absolute;
+  border-radius: 2%;
+  top: 0%;
+}
+
+.left-img-2 {
+  min-width: 150px;
+  max-width: 300px;
+  position: absolute;
+  border-radius: 2%;
+  top: 15%;
+  left: 40%;
+}
+
+.left-img-3 {
+  min-width: 150px;
+  max-width: 300px;
+  position: absolute;
+  border-radius: 2%;
+  top: 50%;
+  left: 10%;
+}
