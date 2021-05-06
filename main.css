@@ -40,7 +40,7 @@ nav {
 .navbar li {
   padding: 1.5rem;
 }
-
+/* INTRO SECTION */
 .intro {
   width: 98vw;
   height: 95vh;
@@ -67,48 +67,144 @@ nav {
   margin: auto;
   width: 50%;
 }
-
+/* INTRO SECTION */
+/* MAIN SECTION */
 .main {
   margin-top: 5rem;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .left,
 .middle,
 .right {
-  width: 600px;
-  height: 600px;
+  width: 33%;
+  height: 100vh;
   position: relative;
+  overflow: hidden;
+}
+
+figure {
+  min-width: 150px;
+  max-width: 300px;
 }
 
 figure img {
-  width: 100%;
+  border-radius: 2%;
+  max-width: 100%;
+  height: auto;
 }
 
 .left-img-1 {
-  min-width: 150px;
-  max-width: 300px;
   position: absolute;
-  border-radius: 2%;
-  top: 0%;
+  top: 5%;
+  left: 15%;
 }
 
 .left-img-2 {
-  min-width: 150px;
-  max-width: 300px;
   position: absolute;
-  border-radius: 2%;
   top: 15%;
-  left: 40%;
+  left: 55%;
 }
 
 .left-img-3 {
-  min-width: 150px;
-  max-width: 300px;
   position: absolute;
-  border-radius: 2%;
-  top: 50%;
+  top: 35%;
   left: 10%;
 }
+
+.middle-text {
+  padding: 50% 3rem 50% 3rem;
+  text-align: center;
+}
+
+.right-img-1 {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.right-img-2 {
+  position: absolute;
+  top: 35%;
+  left: 0%;
+}
+
+.right-img-3 {
+  position: absolute;
+  top: 55%;
+  left: 45%;
+}
+/* MAIN SECTION */
+/* SECOND SECTION */
+.second {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-second,
+.right-second {
+  width: 50%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.left-text {
+  padding: 50% 3rem 50% 3rem;
+}
+
+.right-second-img-1 {
+  position: absolute;
+  top: 15%;
+}
+.right-second-img-2 {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+}
+.right-second-img-3 {
+  position: absolute;
+  top: 55%;
+  left: 5%;
+}
+.right-second-img-4 {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+.right-second-img-5 {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+}
+/* SECOND SECTION */
+/* THIRD SECTION */
+.third {
+  margin-top: 5rem;
+}
+
+.top-text {
+  text-align: center;
+}
+
+.splide {
+  margin-top: 5rem;
+  padding: 0 2rem 0 2rem;
+}
+
+.splide__slide__container {
+  border-radius: 2%;
+  width: 100%;
+}
+
+.splide__slide {
+  padding: 2rem;
+}
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+/* THIRD SECTION */
