@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 
 :root {
   --white: #f7f7f7;
@@ -22,7 +23,8 @@ body {
   height: 100%;
   background-color: var(--white);
   background-image: url(assets/img-noise.png);
-  font-family: "Open Sans", sans-serif;
+  font-family: "Courgette", cursive;
+  /* font-family: "Open Sans", sans-serif; */
 }
 
 nav {
@@ -35,6 +37,7 @@ nav {
   flex-wrap: nowrap;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 99;
 }
 
 .navbar li {
@@ -116,6 +119,7 @@ figure img {
 .middle-text {
   padding: 50% 3rem 50% 3rem;
   text-align: center;
+  font-size: 2rem;
 }
 
 .right-img-1 {
@@ -153,6 +157,7 @@ figure img {
 
 .left-text {
   padding: 50% 3rem 50% 3rem;
+  font-size: 2rem;
 }
 
 .right-second-img-1 {
@@ -187,6 +192,7 @@ figure img {
 
 .top-text {
   text-align: center;
+  font-size: 2rem;
 }
 
 .splide {
@@ -208,3 +214,26 @@ figure img {
   height: auto;
 }
 /* THIRD SECTION */
+/* CATEGORIES */
+.categories {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
+  grid-gap: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 5rem;
+}
+
+.div-category img {
+  border-radius: 2%;
+  width: 100%;
+  height: 100%;
+}
+/* CATEGORIES */
+/* FOOTER */
+footer {
+  margin-top: 5rem;
+  text-align: center;
+}
+/* FOOTER */
