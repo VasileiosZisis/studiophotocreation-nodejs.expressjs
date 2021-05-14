@@ -24,11 +24,11 @@ body {
   background-color: var(--white);
   background-image: url(assets/img-noise.png);
   font-family: "Courgette", cursive;
-  /* font-family: "Open Sans", sans-serif; */
 }
 
 nav {
   height: 2rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 .navbar {
@@ -40,8 +40,24 @@ nav {
   z-index: 99;
 }
 
+.title-logo {
+  position: fixed;
+  top: 3%;
+  left: 6%;
+  color: #202020;
+  font-size: 1.2rem;
+  font-weight: 900;
+  z-index: 99;
+}
+
 .navbar li {
   padding: 1.5rem;
+}
+
+.navbar a {
+  color: #202020;
+  font-size: 1.2rem;
+  font-weight: 900;
 }
 /* INTRO SECTION */
 .intro {
@@ -220,20 +236,26 @@ figure img {
   grid-template-columns: repeat(2, 1fr);
   overflow: hidden;
   grid-gap: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
   margin-top: 5rem;
+}
+
+.div-category {
+  width: 750px;
+  height: 550px;
+  margin: auto;
 }
 
 .div-category img {
   border-radius: 2%;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 /* CATEGORIES */
 /* FOOTER */
 footer {
   margin-top: 5rem;
+  margin-bottom: 2.5rem;
   text-align: center;
 }
 /* FOOTER */
