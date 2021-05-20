@@ -116,43 +116,43 @@ figure img {
 
 .left-img-1 {
   position: absolute;
-  top: 5%;
+  top: 35%;
   left: 15%;
 }
 
 .left-img-2 {
   position: absolute;
-  top: 15%;
+  top: 55%;
   left: 55%;
 }
 
 .left-img-3 {
   position: absolute;
-  top: 35%;
+  top: 55%;
   left: 10%;
 }
 
 .middle-text {
-  padding: 50% 3rem 50% 3rem;
+  padding: 75% 3rem 25% 3rem;
   text-align: center;
   font-size: 2rem;
 }
 
 .right-img-1 {
   position: absolute;
-  top: 25%;
+  top: 85%;
   left: 35%;
 }
 
 .right-img-2 {
   position: absolute;
-  top: 35%;
+  top: 85%;
   left: 0%;
 }
 
 .right-img-3 {
   position: absolute;
-  top: 55%;
+  top: 85%;
   left: 45%;
 }
 /* MAIN SECTION */
@@ -178,26 +178,26 @@ figure img {
 
 .right-second-img-1 {
   position: absolute;
-  top: 15%;
+  top: 75%;
 }
 .right-second-img-2 {
   position: absolute;
-  top: 35%;
+  top: 165%;
   left: 15%;
 }
 .right-second-img-3 {
   position: absolute;
-  top: 55%;
+  top: 85%;
   left: 5%;
 }
 .right-second-img-4 {
   position: absolute;
-  top: 20%;
+  top: 80%;
   left: 35%;
 }
 .right-second-img-5 {
   position: absolute;
-  top: 45%;
+  top: 135%;
   left: 40%;
 }
 /* SECOND SECTION */
@@ -254,8 +254,12 @@ figure img {
 /* CATEGORIES */
 /* FOOTER */
 footer {
+  font-family: "Open Sans", sans-serif;
   margin-top: 5rem;
   margin-bottom: 2.5rem;
   text-align: center;
+  color: #202020;
+  font-size: 1.2rem;
+  font-weight: 900;
 }
 /* FOOTER */

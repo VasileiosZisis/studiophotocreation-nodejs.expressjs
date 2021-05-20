@@ -1,8 +1,13 @@
+
+// RELLAX
+const rellax = new Rellax('.rellax');
+
+// SPLIDE
 document.addEventListener( 'DOMContentLoaded', function () {
     new Splide( '.splide' , {
         autoplay  : true,
-        interval  : 3000,
-        speed     : 800,
+        interval  : 0,
+        speed     : 10000,
         type      : 'loop',
         perPage   : 3,
         perMove   : 1,
@@ -15,4 +20,4 @@ document.addEventListener( 'DOMContentLoaded', function () {
             },
         }
     }).mount();
-} );
+} ); 
