@@ -1,3 +1,17 @@
+const text = document.querySelectorAll('.text');
+
+// TEXT ANIMATION
+observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.intersectionRatio > 0) {
+        entry.target.classList.add('animate-text');
+      }
+    })
+  })
+  
+  text.forEach(path => {
+    observer.observe(path);
+  })
 
 // RELLAX
 const rellax = new Rellax('.rellax');
@@ -7,7 +21,8 @@ document.addEventListener( 'DOMContentLoaded', function () {
     new Splide( '.splide' , {
         autoplay  : true,
         interval  : 0,
-        speed     : 10000,
+        easing    : 'ease',
+        speed     : 15000,
         type      : 'loop',
         perPage   : 3,
         perMove   : 1,
@@ -20,4 +35,4 @@ document.addEventListener( 'DOMContentLoaded', function () {
             },
         }
     }).mount();
-} ); 
+} );

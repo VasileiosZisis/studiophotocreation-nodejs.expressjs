@@ -92,6 +92,7 @@ nav {
   margin-top: 5rem;
   display: flex;
   flex-direction: row;
+  box-shadow: inset 0 0 150px var(--black);
 }
 
 .left,
@@ -160,6 +161,7 @@ figure img {
 .second {
   display: flex;
   flex-direction: row;
+  box-shadow: inset 0 0 150px var(--black);
 }
 
 .left-second,
@@ -178,11 +180,11 @@ figure img {
 
 .right-second-img-1 {
   position: absolute;
-  top: 75%;
+  top: 85%;
 }
 .right-second-img-2 {
   position: absolute;
-  top: 165%;
+  top: 175%;
   left: 15%;
 }
 .right-second-img-3 {
@@ -192,7 +194,7 @@ figure img {
 }
 .right-second-img-4 {
   position: absolute;
-  top: 80%;
+  top: 90%;
   left: 35%;
 }
 .right-second-img-5 {
@@ -203,7 +205,8 @@ figure img {
 /* SECOND SECTION */
 /* THIRD SECTION */
 .third {
-  margin-top: 5rem;
+  padding-top: 5rem;
+  box-shadow: inset 0 0 150px var(--black);
 }
 
 .top-text {
@@ -236,11 +239,15 @@ figure img {
   grid-template-columns: repeat(2, 1fr);
   overflow: hidden;
   grid-gap: 2rem;
-  margin-top: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #202020;
 }
 
 .div-category {
-  width: 750px;
+  width: 100%;
   height: 550px;
   margin: auto;
 }
@@ -255,7 +262,7 @@ figure img {
 /* FOOTER */
 footer {
   font-family: "Open Sans", sans-serif;
-  margin-top: 5rem;
+  margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   text-align: center;
   color: #202020;
@@ -263,3 +270,21 @@ footer {
   font-weight: 900;
 }
 /* FOOTER */
+/* ANIMATIONS */
+.text {
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.animate-text {
+  animation: reveal-text 1s ease 0.2s forwards;
+}
+
+@keyframes reveal-text {
+  from {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+/* ANIMATIONS */
