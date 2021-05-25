@@ -1,5 +1,10 @@
 const text = document.querySelectorAll('.text');
 
+const modalEle = document.querySelector('.modal');
+const modalImage = document.querySelector('.modal-content');
+const close = document.querySelector('.close');
+const modalIMG = document.querySelectorAll('.modal-IMG');
+
 // TEXT ANIMATION
 observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -22,7 +27,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
         autoplay  : true,
         interval  : 0,
         easing    : 'ease',
-        speed     : 15000,
+        speed     : 9000,
         type      : 'loop',
         perPage   : 3,
         perMove   : 1,
@@ -36,3 +41,22 @@ document.addEventListener( 'DOMContentLoaded', function () {
         }
     }).mount();
 } );
+
+// MODAL IMG
+modalIMG.forEach(item => {
+  item.addEventListener("click", event => {
+     modalEle.style.display = "block";
+     modalImage.src = event.target.src;
+     document.body.style.overflow = "hidden";
+  });
+});
+window.onclick = function(event) {
+ if (event.target === modalEle) {
+   modalEle.style.display = "none";
+   document.body.style.overflow = "visible";
+ }
+}
+close.addEventListener("click", () => {
+  modalEle.style.display = "none";
+  document.body.style.overflow = "visible";
+});
