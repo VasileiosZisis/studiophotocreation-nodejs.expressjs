@@ -1,5 +1,7 @@
 const text = document.querySelectorAll('.text');
 
+const img = document.querySelectorAll('.category-img')
+
 const modalEle = document.querySelector('.modal');
 const modalImage = document.querySelector('.modal-content');
 const close = document.querySelector('.close');
@@ -7,16 +9,29 @@ const modalIMG = document.querySelectorAll('.modal-IMG');
 
 // TEXT ANIMATION
 observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if(entry.intersectionRatio > 0) {
-        entry.target.classList.add('animate-text');
-      }
-    })
+  entries.forEach(entry => {
+    if(entry.intersectionRatio > 0) {
+      entry.target.classList.add('animate-text');
+    }
   })
+})
   
-  text.forEach(path => {
-    observer.observe(path);
+text.forEach(path => {
+  observer.observe(path);
+})
+
+// IMG ANIMATION
+observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if(entry.intersectionRatio > 0) {
+      entry.target.classList.add('animate-img');
+    }
   })
+})
+
+img.forEach(path => {
+  observer.observe(path);
+})
 
 // RELLAX
 const rellax = new Rellax('.rellax');
