@@ -101,12 +101,12 @@ nav {
 figure {
   min-width: 150px;
   max-width: 300px;
+  height: auto;
 }
 
 figure img {
   border-radius: 2%;
   max-width: 100%;
-  height: auto;
 }
 
 .left-img-1 {
@@ -367,7 +367,7 @@ footer {
 /* FOOTER */
 /* MAIN-PORTFOLIO */
 .main-portfolio {
-  min-height: 100vh;
+  min-height: 130vh;
   background-color: var(--white);
   background-image: url(assets/img-noise.png);
   box-shadow: inset 0 0 150px var(--black);
@@ -378,7 +378,6 @@ footer {
 .middle-portfolio {
   display: grid;
   place-content: center;
-  margin-top: 6rem;
 }
 
 .middle-portfolio > div {
@@ -404,6 +403,70 @@ footer {
 
 .right-portfolio {
   position: relative;
+}
+
+.right-portfolio-img-1 {
+  position: absolute;
+  top: 20%;
+  left: 0;
+}
+
+.right-portfolio-img-2 {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+
+.right-portfolio-img-3 {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+}
+
+.right-portfolio-img-4 {
+  position: absolute;
+  top: 60%;
+  left: 0;
+}
+
+.right-portfolio-img-5 {
+  position: absolute;
+  top: 70%;
+  left: 25%;
+}
+
+.left-portfolio {
+  position: relative;
+}
+
+.left-portfolio-img-1 {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.left-portfolio-img-2 {
+  position: absolute;
+  top: 40%;
+  left: 55%;
+}
+
+.left-portfolio-img-3 {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+.left-portfolio-img-4 {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
+
+.left-portfolio-img-5 {
+  position: absolute;
+  top: 70%;
+  left: 35%;
 }
 /* MAIN-PORTFOLIO */
 /* ANIMATIONS */
