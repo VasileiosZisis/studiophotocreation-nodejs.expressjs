@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1550px) {
+  .left-img-1 {
+    top: 45%;
+  }
+  .left-img-3 {
+    top: 65%;
+  }
+  .right-second-img-2 {
+    top: 200%;
+  }
+  .right-second-img-5 {
+    top: 155%;
+  }
+  .contact-left-img {
+    top: 280%;
+  }
+  .contact-right-img {
+    top: 310%;
+    left: 20%;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .right-second-img-3 {
+    top: 95%;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .contact-left-img {
+    left: 5%;
+  }
+  .contact-right-img {
+    left: 15%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .right-second-img-1 {
+    top: 70%;
+  }
+  .right-second-img-2 {
+    top: 180%;
+  }
+  .right-second-img-3 {
+    top: 85%;
+  }
+  .right-second-img-5 {
+    top: 135%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .contact {
+    padding-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .right-second-img-1 {
+    top: 60%;
+  }
+  .right-second-img-2 {
+    top: 200%;
+  }
+  .right-second-img-3 {
+    top: 85%;
+  }
+  .right-second-img-4 {
+    top: 100%;
+  }
+  .right-second-img-5 {
+    top: 155%;
+  }
+  .contact-right-img {
+    left: 10%;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .contact-left-img img {
+    width: 90%;
+  }
+
+  .contact-right-img img {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .right-second-img-1 {
+    top: 80%;
+  }
+  .right-second-img-2 {
+    top: 200%;
+  }
+  .right-second-img-3 {
+    top: 85%;
+  }
+  .right-second-img-4 {
+    top: 100%;
+  }
+  .right-second-img-5 {
+    top: 155%;
+  }
+  .contact-right-img {
+    left: 10%;
+  }
+}

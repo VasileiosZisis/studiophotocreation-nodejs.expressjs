@@ -72,11 +72,11 @@ document.addEventListener( 'DOMContentLoaded', function () {
         perPage   : 3,
         perMove   : 1,
         height    : '600px',
-	    cover     : true,
+	      cover     : true,
         arrows    : false,
         breakpoints: {
-            640: {
-                perPage: 1,
+            950: {
+                perPage: 2,
             },
         }
     }).mount();
