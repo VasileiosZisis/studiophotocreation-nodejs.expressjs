@@ -106,7 +106,8 @@ figure {
 
 figure img {
   border-radius: 2%;
-  max-width: 100%;
+  width: 110%;
+  height: 110%;
 }
 
 .left-img-1 {
@@ -269,16 +270,20 @@ figure img {
 .div-category {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.container-img {
+  width: 750px;
   height: 550px;
 }
 
 .category-img {
   border-radius: 2%;
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   display: block;
   margin: auto;
+  width: 110%;
+  height: 110%;
 }
 
 .categories-text {
@@ -314,14 +319,14 @@ figure img {
 
 .contact-left-img {
   position: absolute;
-  top: 200%;
+  top: 10%;
   left: 10%;
 }
 
 .contact-right-img {
   position: absolute;
-  top: 220%;
-  left: 25%;
+  top: 40%;
+  left: 15%;
 }
 
 .contact {
@@ -510,17 +515,17 @@ footer {
 }
 
 .animate-img {
-  animation: scale-img 1.2s ease 0.2s forwards;
+  animation: scale-img 0.7s ease forwards;
 }
 
 @keyframes scale-img {
   from {
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 110%;
   }
   to {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
   }
 }
 /* ANIMATIONS */

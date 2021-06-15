@@ -1,6 +1,6 @@
 const text = document.querySelectorAll('.text');
 
-const img = document.querySelectorAll('.category-img')
+const img = document.querySelectorAll('.scale-img')
 
 const modalEle = document.querySelector('.modal');
 const modalImage = document.querySelector('.modal-content');
@@ -75,7 +75,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
 	      cover     : true,
         arrows    : false,
         breakpoints: {
-            950: {
+            1350: {
                 perPage: 2,
             },
         }
