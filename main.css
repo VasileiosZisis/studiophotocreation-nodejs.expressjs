@@ -211,6 +211,8 @@ figure img {
 .top-text {
   text-align: center;
   font-size: 2rem;
+  display: grid;
+  word-wrap: normal;
 }
 
 .splide {
@@ -298,6 +300,7 @@ figure img {
   border: 10px double var(--white);
   border-radius: 5px;
   transition: border 0.2s;
+  display: inline-block;
 }
 
 .categories-button:hover,
@@ -312,7 +315,7 @@ figure img {
   background-color: var(--red);
   background-image: url(assets/img-noise.png);
   display: grid;
-  grid-template-columns: 10% 10% 40% 40%;
+  grid-template-columns: 1fr 1fr;
   box-shadow: inset 0 0 150px var(--white);
   position: relative;
 }
@@ -326,12 +329,16 @@ figure img {
 .contact-right-img {
   position: absolute;
   top: 40%;
-  left: 15%;
+  left: 25%;
+}
+
+.contact-container-text {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: auto;
 }
 
 .contact {
-  text-align: end;
-  padding-top: 40%;
   padding-right: 50px;
 }
 
@@ -343,6 +350,7 @@ figure img {
   border: 10px double var(--white);
   border-radius: 5px;
   transition: border 0.2s;
+  display: inline-block;
 }
 
 .contact a:hover,
@@ -355,8 +363,8 @@ figure img {
   color: var(--white);
   font-size: 2rem;
   text-align: start;
-  padding-top: 40%;
-  padding-right: 50px;
+  display: grid;
+  word-wrap: normal;
 }
 /* CONTACT */
 /* FOOTER */
