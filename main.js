@@ -78,6 +78,9 @@ document.addEventListener( 'DOMContentLoaded', function () {
             1350: {
                 perPage: 2,
             },
+            750: {
+              perPage: 1,
+            },
         }
     }).mount();
 } );

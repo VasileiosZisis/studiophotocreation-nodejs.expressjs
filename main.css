@@ -182,7 +182,7 @@ figure img {
 }
 .right-second-img-2 {
   position: absolute;
-  top: 180%;
+  top: 175%;
   left: 15%;
   z-index: 1;
 }
@@ -499,7 +499,7 @@ footer {
 }
 
 .animate-text {
-  animation: reveal-text 1.2s ease 0.2s forwards;
+  animation: reveal-text 0.7s ease forwards;
 }
 
 @keyframes reveal-text {
