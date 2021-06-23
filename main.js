@@ -65,14 +65,13 @@ const rellax = new Rellax('.rellax');
 document.addEventListener( 'DOMContentLoaded', function () {
     new Splide( '.splide' , {
         autoplay  : true,
-        interval  : 0,
-        easing    : 'ease',
-        speed     : 9000,
+        interval  : 500,
+        easing    : 'linear',
+        speed     : 5500,
         type      : 'loop',
         perPage   : 3,
         perMove   : 1,
         height    : '600px',
-	      cover     : true,
         arrows    : false,
         breakpoints: {
             1350: {
