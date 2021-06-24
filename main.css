@@ -438,12 +438,6 @@ footer {
 
 .right-portfolio-img-4 {
   position: absolute;
-  top: 70%;
-  left: 0;
-}
-
-.right-portfolio-img-5 {
-  position: absolute;
   top: 80%;
   left: 25%;
 }
@@ -471,12 +465,6 @@ footer {
 }
 
 .left-portfolio-img-4 {
-  position: absolute;
-  top: 60%;
-  left: 5%;
-}
-
-.left-portfolio-img-5 {
   position: absolute;
   top: 70%;
   left: 35%;
