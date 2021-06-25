@@ -65,7 +65,7 @@ const rellax = new Rellax('.rellax');
 document.addEventListener( 'DOMContentLoaded', function () {
     new Splide( '.splide' , {
         autoplay  : true,
-        interval  : 500,
+        interval  : 1000,
         easing    : 'linear',
         speed     : 5500,
         type      : 'loop',
