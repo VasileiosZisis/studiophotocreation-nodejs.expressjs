@@ -530,13 +530,63 @@ footer {
 }
 
 .contact-details {
-  background-color: var(--white);
-  background-image: url(assets/noise-new.webp);
-  box-shadow: inset 0 0 150px var(--black);
-  min-height: 100vh;
+  background-color: var(--black);
+  background-image: url(assets/img-noise.png);
+  box-shadow: inset 0 0 150px var(--white);
+  min-height: 70vh;
   display: grid;
   place-content: center;
   position: relative;
+}
+
+.text-contact {
+  padding-top: 2rem;
+}
+
+.text-contact p,
+.text-contact a {
+  color: var(--white);
+  font-size: 2rem;
+}
+
+.contact-final {
+  background-color: var(--red);
+  background-image: url(assets/img-noise.png);
+  box-shadow: inset 0 0 150px var(--white);
+  padding-top: 5rem;
+  min-height: 70vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.address {
+  width: 90%;
+  margin: auto;
+}
+
+.address-text {
+  text-align: center;
+  padding-bottom: 5rem;
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.address img {
+  height: auto;
+  border-radius: 2%;
+}
+
+.map {
+  margin: auto;
+  width: 90%;
+  border: 5px solid var(--white);
+  border-radius: 2%;
+  height: 90%;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
 }
 /* CONTACT */
 /* ANIMATIONS */
