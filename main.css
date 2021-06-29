@@ -342,6 +342,7 @@ nav {
   position: absolute;
   top: 40%;
   left: 25%;
+  z-index: 9;
 }
 
 .contact-container-text {
@@ -481,6 +482,10 @@ footer {
   box-shadow: inset 0 0 150px var(--black);
 }
 
+.title-contact {
+  text-align: center;
+}
+
 .title-contact h1 {
   font-size: 3rem;
   color: var(--black);
@@ -572,21 +577,22 @@ footer {
 }
 
 .address img {
-  height: auto;
+  width: 100%;
   border-radius: 2%;
 }
 
 .map {
   margin: auto;
   width: 90%;
-  border: 5px solid var(--white);
-  border-radius: 2%;
   height: 90%;
 }
 
 .map iframe {
   width: 100%;
   height: 100%;
+  border: 5px solid var(--white);
+
+  border-radius: 2%;
 }
 /* CONTACT */
 /* ANIMATIONS */

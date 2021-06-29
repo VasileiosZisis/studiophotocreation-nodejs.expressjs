@@ -13,9 +13,24 @@
   }
 }
 
+@media only screen and (max-width: 1500px) {
+  .contact-img-2 {
+    left: 1%;
+  }
+  .contact-img-5 {
+    left: 79%;
+  }
+}
+
 @media only screen and (max-width: 1450px) {
   .right-second-img-3 {
     top: 95%;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .contact-img-2 {
+    display: none;
   }
 }
 
@@ -31,6 +46,12 @@
   }
   .right-second-img-5 {
     top: 145%;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .contact-img-5 {
+    display: none;
   }
 }
 
@@ -186,20 +207,47 @@
   .middle-text,
   .left-text,
   .top-text,
-  .contact-text {
+  .contact-text,
+  .categories-button,
+  .contact a,
+  .text-contact p,
+  .text-contact a,
+  .address-text {
     font-size: 1.5rem;
   }
-  .categories-button {
-    font-size: 1.5rem;
+  .middle-text {
+    padding: 0rem 1rem 0rem 1rem;
   }
-  .contact a {
-    font-size: 1.5rem;
+  .right-img-1 {
+    display: none;
   }
   .right-second-img-5 {
     display: none;
   }
   .left-portfolio-img-2 {
     left: 5%;
+  }
+  .title-contact h1 {
+    font-size: 2rem;
+  }
+  .contact-final {
+    grid-template-columns: 100%;
+  }
+  .map {
+    padding: 2rem 0rem 2rem 0rem;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-img-1 {
+    left: 10%;
+  }
+  .contact-img-3 {
+    left: 20%;
+  }
+  .contact-img-6 {
+    left: 55%;
   }
 }
 
@@ -218,11 +266,12 @@
     width: 250px;
     height: 250px;
   }
-  .contact-left-img {
-    width: 250px;
-  }
+  .contact-left-img,
   .contact-right-img {
     width: 250px;
+  }
+  .contact-figure img {
+    max-width: 250px;
   }
 }
 
@@ -270,11 +319,32 @@
     width: 200px;
     height: 200px;
   }
+  .contact-img-4 {
+    left: 45%;
+  }
+  .contact-img-6 {
+    left: 50%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   nav {
     padding: 1rem 0.5rem;
+  }
+  .title-contact h1 {
+    font-size: 1.6rem;
+  }
+  .contact-img-1 {
+    left: 1%;
+  }
+  .contact-img-3 {
+    left: 5%;
+  }
+  .contact-img-4 {
+    left: 40%;
+  }
+  .contact-img-6 {
+    left: 40%;
   }
 }
 
@@ -298,6 +368,9 @@
     top: 25%;
     left: 25%;
   }
+  .title-contact h1 {
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -309,5 +382,8 @@
   }
   .container-img {
     width: 280px;
+  }
+  .contact-figure img {
+    max-width: 210px;
   }
 }
