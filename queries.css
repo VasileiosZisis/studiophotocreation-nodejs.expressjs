@@ -257,7 +257,26 @@
     height: 350px;
   }
   .main-portfolio {
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .main-portfolio {
+    grid-template-columns: 1fr;
+  }
+  .right-portfolio,
+  .left-portfolio {
+    display: none;
+  }
+  .middle-portfolio {
+    display: none;
+  }
+  .middle-portfolio-700px {
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    overflow: hidden;
+    grid-gap: 2rem;
   }
 }
 
@@ -286,13 +305,6 @@
     top: 120%;
   }
   .right-second-img-4 {
-    display: none;
-  }
-  .main-portfolio {
-    grid-template-columns: 1fr;
-  }
-  .right-portfolio,
-  .left-portfolio {
     display: none;
   }
 }
@@ -369,7 +381,7 @@
     left: 25%;
   }
   .title-contact h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -380,10 +392,18 @@
   .navbar li {
     padding: 0rem 0.1rem;
   }
+  .navbar a,
+  .title-logo,
+  footer {
+    font-size: 0.9rem;
+  }
   .container-img {
     width: 280px;
   }
   .contact-figure img {
     max-width: 210px;
+  }
+  .text-contact {
+    padding: 2rem 0rem 0rem 0rem;
   }
 }

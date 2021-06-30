@@ -57,6 +57,7 @@ nav {
   transition: border 0.2s;
 }
 
+.navbar a.active,
 .navbar a:hover,
 .navbar a:focus {
   border: 5px double var(--black);
@@ -403,6 +404,10 @@ footer {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.middle-portfolio-700px {
+  display: none;
+}
+
 .middle-portfolio > div {
   padding-top: 10rem;
   text-align: center;
@@ -417,6 +422,7 @@ footer {
 
 .right-portfolio {
   position: relative;
+  overflow: hidden;
 }
 
 .right-portfolio-img-1 {
@@ -445,6 +451,7 @@ footer {
 
 .left-portfolio {
   position: relative;
+  overflow: hidden;
 }
 
 .left-portfolio-img-1 {
@@ -540,12 +547,12 @@ footer {
   box-shadow: inset 0 0 150px var(--white);
   min-height: 70vh;
   display: grid;
-  place-content: center;
   position: relative;
+  padding: 5rem 0rem 5rem 0rem;
 }
 
 .text-contact {
-  padding-top: 2rem;
+  padding: 2rem 2rem 0rem 2rem;
 }
 
 .text-contact p,

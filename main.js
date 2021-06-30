@@ -7,6 +7,17 @@ const modalImage = document.querySelector('.modal-content');
 const close = document.querySelector('.close');
 const modalIMG = document.querySelectorAll('.modal-IMG');
 
+const currentLocation = location.href;
+const menuItem = document.querySelectorAll('.navbar a');
+const menuLength = menuItem.length;
+
+// ACTIVE CLASS
+for (let i = 0; i <menuLength; i++) {
+  if(menuItem[i].href === currentLocation) {
+    menuItem[i].className = " active";
+  }
+}
+
 // TRANSITION
 window.onload = () => {
   const transitionEle = document.querySelector('.transition');
