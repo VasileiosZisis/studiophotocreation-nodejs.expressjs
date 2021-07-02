@@ -384,7 +384,7 @@ nav {
 /* CONTACT */
 /* FOOTER */
 footer {
-  padding: 1.5rem;
+  padding: 1rem;
   font-family: "Open Sans", sans-serif;
   text-align: center;
   color: #202020;
@@ -549,10 +549,11 @@ footer {
   display: grid;
   position: relative;
   padding: 5rem 0rem 5rem 0rem;
+  text-align: center;
 }
 
 .text-contact {
-  padding: 2rem 2rem 0rem 2rem;
+  padding: 2rem 6rem 0rem 6rem;
 }
 
 .text-contact p,
