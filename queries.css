@@ -253,37 +253,31 @@
 
 @media only screen and (max-width: 750px) {
   .container-img {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 250px;
   }
-  .main-portfolio {
-    grid-template-columns: 33% 33% 33%;
-  }
-}
-@media only screen and (max-width: 700px) {
   .main-portfolio {
     grid-template-columns: 1fr;
-  }
-  .right-portfolio,
-  .left-portfolio {
-    display: none;
   }
   .middle-portfolio {
     display: none;
   }
-  .middle-portfolio-700px {
+  .middle-portfolio-750px {
     padding-top: 5rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     overflow: hidden;
     grid-gap: 2rem;
   }
+  .right-portfolio,
+  .left-portfolio {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 650px) {
   .container-img {
     width: 250px;
-    height: 250px;
   }
   .contact-left-img,
   .contact-right-img {
