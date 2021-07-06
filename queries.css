@@ -125,24 +125,19 @@
     grid-template-rows: repeat(1, 1fr);
     grid-gap: 5rem;
   }
-  .contact {
-    text-align: center;
-  }
+  .contact,
   .contact-text {
     text-align: center;
   }
   .left-portfolio-img-1 {
     left: 10%;
   }
-
   .left-portfolio-img-2 {
     left: 25%;
   }
-
   .left-portfolio-img-3 {
     left: 15%;
   }
-
   .left-portfolio-img-4 {
     left: 5%;
   }
@@ -218,9 +213,7 @@
   .middle-text {
     padding: 0rem 1rem 0rem 1rem;
   }
-  .right-img-1 {
-    display: none;
-  }
+  .right-img-1,
   .right-second-img-5 {
     display: none;
   }
@@ -259,7 +252,9 @@
   .main-portfolio {
     grid-template-columns: 1fr;
   }
-  .middle-portfolio {
+  .middle-portfolio,
+  .right-portfolio,
+  .left-portfolio {
     display: none;
   }
   .middle-portfolio-750px {
@@ -269,16 +264,13 @@
     overflow: hidden;
     grid-gap: 2rem;
   }
-  .right-portfolio,
-  .left-portfolio {
-    display: none;
+  .main-photogrid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media only screen and (max-width: 650px) {
-  .container-img {
-    width: 250px;
-  }
+  .container-img,
   .contact-left-img,
   .contact-right-img {
     width: 250px;
@@ -292,14 +284,12 @@
   nav {
     padding: 1rem 1rem;
   }
-  .right-img-1 {
+  .right-img-1,
+  .right-second-img-4 {
     display: none;
   }
   .right-second-img-1 {
     top: 120%;
-  }
-  .right-second-img-4 {
-    display: none;
   }
 }
 
@@ -376,6 +366,9 @@
   }
   .title-contact h1 {
     font-size: 1.8rem;
+  }
+  .main-photogrid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
