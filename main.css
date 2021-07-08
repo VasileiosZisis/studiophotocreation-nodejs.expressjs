@@ -715,7 +715,7 @@ footer {
   display: block;
   height: auto;
   width: auto;
-  max-width: 1000px;
+  max-width: 90vw;
   -webkit-animation: zoom 0.6s;
   animation: zoom 0.6s;
 }
