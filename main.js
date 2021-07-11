@@ -113,3 +113,13 @@ close.addEventListener("click", () => {
   modalEle.style.display = "none";
   document.body.style.overflow = "visible";
 });
+
+function handleTabletChange(e) {
+  if (e.matches) {
+    for (let i = 0; i < links.length; i++) {
+      links[i].style.display = "flex";
+    }
+  }
+}
+mediaQuery.addListener(handleTabletChange);
+handleTabletChange(mediaQuery);
