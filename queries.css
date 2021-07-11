@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 96.875em) {
   .left-img-1 {
     top: 45%;
   }
@@ -13,7 +13,7 @@
   }
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 93.75em) {
   .contact-img-2 {
     left: 1%;
   }
@@ -22,19 +22,19 @@
   }
 }
 
-@media only screen and (max-width: 1450px) {
+@media only screen and (max-width: 90.625em) {
   .right-second-img-3 {
     top: 95%;
   }
 }
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 84.375em) {
   .contact-img-2 {
     display: none;
   }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 81.25em) {
   .right-second-img-1 {
     top: 70%;
   }
@@ -49,22 +49,25 @@
   }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 78.125em) {
   .contact-img-5 {
     display: none;
   }
-}
-
-@media only screen and (max-width: 1200px) {
   .contact {
     padding-right: 10px;
   }
   .contact-text {
     padding-right: 10px;
   }
+  .contact-left-img {
+    left: 2%;
+  }
+  .contact-right-img {
+    left: 10%;
+  }
 }
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 71.875em) {
   .right-second-img-1 {
     top: 60%;
   }
@@ -89,24 +92,15 @@
   }
 }
 
-@media only screen and (max-width: 1100px) {
-  .contact-left-img {
-    left: 2%;
-  }
-  .contact-right-img {
-    left: 10%;
-  }
+@media only screen and (max-width: 68.75em) {
   .portfolio-figure img {
     max-width: 200px;
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 62.5em) {
   .right-second-img-1 {
     top: 80%;
-  }
-  .right-second-img-2 {
-    top: 200%;
   }
   .right-second-img-3 {
     top: 85%;
@@ -143,7 +137,7 @@
   }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 59.375em) {
   .main {
     grid:
       80vh
@@ -190,7 +184,7 @@
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 56.25em) {
   nav {
     padding: 1rem 4rem;
   }
@@ -232,7 +226,7 @@
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 50em) {
   .contact-img-1 {
     left: 10%;
   }
@@ -244,7 +238,7 @@
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 46.875em) {
   .container-img {
     width: 300px;
     height: 250px;
@@ -259,6 +253,7 @@
   }
   .middle-portfolio-750px {
     padding-top: 5rem;
+    -ms-display: grid;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     overflow: hidden;
@@ -269,7 +264,7 @@
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 40.625em) {
   .container-img,
   .contact-left-img,
   .contact-right-img {
@@ -280,7 +275,7 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5em) {
   nav {
     padding: 1rem 1rem;
   }
@@ -293,8 +288,9 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 34.375em) {
   .div-category {
+    -ms-display: grid;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 450px 200px;
@@ -323,9 +319,22 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 31.25em) {
   nav {
     padding: 1rem 0.5rem;
+  }
+  .contact-left-img {
+    top: 5%;
+    left: 10%;
+  }
+  .contact-right-img {
+    top: 25%;
+    left: 25%;
+  }
+  .contact-section {
+    height: 85vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   .title-contact h1 {
     font-size: 1.6rem;
@@ -344,25 +353,12 @@
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 28.125em) {
   .navbar li {
     padding: 0rem 0.2rem;
   }
   .container-img {
     width: 350px;
-  }
-  .contact-section {
-    height: 85vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-  .contact-left-img {
-    top: 5%;
-    left: 10%;
-  }
-  .contact-right-img {
-    top: 25%;
-    left: 25%;
   }
   .title-contact h1 {
     font-size: 1.8rem;
@@ -372,7 +368,7 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 25em) {
   nav {
     padding: 1rem 0rem;
   }

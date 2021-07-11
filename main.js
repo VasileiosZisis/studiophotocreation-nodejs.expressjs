@@ -44,7 +44,7 @@ window.onload = () => {
 }
 
 // TEXT ANIMATION
-observer = new IntersectionObserver((entries) => {
+observerText = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if(entry.intersectionRatio > 0) {
       entry.target.classList.add('animate-text');
@@ -53,11 +53,11 @@ observer = new IntersectionObserver((entries) => {
 })
   
 text.forEach(path => {
-  observer.observe(path);
+  observerText.observe(path);
 })
 
 // IMG ANIMATION
-observer = new IntersectionObserver((entries) => {
+observerIMG = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if(entry.intersectionRatio > 0) {
       entry.target.classList.add('animate-img');
@@ -66,7 +66,7 @@ observer = new IntersectionObserver((entries) => {
 })
 
 img.forEach(path => {
-  observer.observe(path);
+  observerIMG.observe(path);
 })
 
 // RELLAX
@@ -113,13 +113,3 @@ close.addEventListener("click", () => {
   modalEle.style.display = "none";
   document.body.style.overflow = "visible";
 });
-
-function handleTabletChange(e) {
-  if (e.matches) {
-    for (let i = 0; i < links.length; i++) {
-      links[i].style.display = "flex";
-    }
-  }
-}
-mediaQuery.addListener(handleTabletChange);
-handleTabletChange(mediaQuery);
