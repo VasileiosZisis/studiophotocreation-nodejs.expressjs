@@ -413,6 +413,15 @@ footer {
   background-color: var(--white);
   background-image: url(assets/img-noise.png);
 }
+
+.sign {
+  font-size: 1rem;
+}
+
+.sign a {
+  color: var(--red);
+  text-decoration: underline;
+}
 /* FOOTER */
 /* MAIN-PORTFOLIO */
 .main-portfolio {
