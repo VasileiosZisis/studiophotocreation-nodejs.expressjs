@@ -70,6 +70,7 @@ nav {
   position: relative;
   background-color: var(--white);
   background-image: url(assets/noise-new.webp);
+  position: relative;
 }
 
 .intro video {
@@ -89,6 +90,15 @@ nav {
   height: 100%;
   -webkit-animation: scale-video 3s ease 1s forwards;
   animation: scale-video 3s ease 1s forwards;
+}
+
+.intro img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+  width: 50%;
 }
 /* INTRO SECTION */
 /* MAIN SECTION */
@@ -419,7 +429,12 @@ footer {
 }
 
 .sign a {
-  color: var(--red);
+  color: var(--black);
+  transition: 0.7s;
+}
+
+.sign a:hover,
+.sign a:focus {
   text-decoration: underline;
 }
 /* FOOTER */

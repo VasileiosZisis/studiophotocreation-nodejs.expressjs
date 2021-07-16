@@ -236,6 +236,10 @@
   .contact-img-6 {
     left: 55%;
   }
+  .contact-left-img,
+  .contact-right-img {
+    width: 250px;
+  }
 }
 
 @media only screen and (max-width: 46.875em) {
@@ -265,13 +269,28 @@
 }
 
 @media only screen and (max-width: 40.625em) {
-  .container-img,
-  .contact-left-img,
-  .contact-right-img {
+  .container-img {
     width: 250px;
   }
   .contact-figure img {
     max-width: 250px;
+  }
+  .contact-left-img {
+    top: 5%;
+    left: 10%;
+    width: 180px;
+    height: 180px;
+  }
+  .contact-right-img {
+    top: 25%;
+    left: 25%;
+    width: 200px;
+    height: 200px;
+  }
+  .contact-section {
+    height: 85vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
 
@@ -303,14 +322,6 @@
   .categories-text {
     text-align: center;
   }
-  .contact-left-img {
-    width: 180px;
-    height: 180px;
-  }
-  .contact-right-img {
-    width: 200px;
-    height: 200px;
-  }
   .contact-img-4 {
     left: 45%;
   }
@@ -322,19 +333,6 @@
 @media only screen and (max-width: 31.25em) {
   nav {
     padding: 1rem 0.5rem;
-  }
-  .contact-left-img {
-    top: 5%;
-    left: 10%;
-  }
-  .contact-right-img {
-    top: 25%;
-    left: 25%;
-  }
-  .contact-section {
-    height: 85vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
   }
   .title-contact h1 {
     font-size: 1.6rem;
