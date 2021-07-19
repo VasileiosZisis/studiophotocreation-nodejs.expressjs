@@ -7,19 +7,25 @@ const modalImage = document.querySelector('.modal-content');
 const close = document.querySelector('.close');
 const modalIMG = document.querySelectorAll('.modal-IMG');
 
-const currentLocation = location.href;
-const menuItem = document.querySelectorAll('.navbar a');
-const menuLength = menuItem.length;
+// const currentLocation = location.href;
+// const menuItem = document.querySelectorAll('.navbar a');
+// const menuLength = menuItem.length;
 
 // ACTIVE CLASS
-for (let i = 0; i <menuLength; i++) {
-  if(menuItem[i].href === currentLocation) {
-    menuItem[i].className = " active";
+
+(function () {
+  const current = location.pathname.split('/')[1];
+  if (current === "") return;
+  const menuItems = document.querySelectorAll('.navbar a');
+  for (let i = 0, len = menuItems.length; i < len; i++) {
+      if (menuItems[i].getAttribute("href").indexOf(current) !== -1) {
+          menuItems[i].className += " active";
+      }
   }
-}
+})();
 
 // TRANSITION
-window.onload = () => {
+addEventListener('DOMContentLoaded', (event) => {
   const transitionEle = document.querySelector('.transition');
   const anchors = document.querySelectorAll('a');
 
@@ -41,7 +47,7 @@ window.onload = () => {
       }, 500);
     });
   }
-}
+})
 
 // TEXT ANIMATION
 observerText = new IntersectionObserver((entries) => {
