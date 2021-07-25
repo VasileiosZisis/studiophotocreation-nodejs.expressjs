@@ -7,12 +7,7 @@ const modalImage = document.querySelector('.modal-content');
 const close = document.querySelector('.close');
 const modalIMG = document.querySelectorAll('.modal-IMG');
 
-// const currentLocation = location.href;
-// const menuItem = document.querySelectorAll('.navbar a');
-// const menuLength = menuItem.length;
-
 // ACTIVE CLASS
-
 (function () {
   const current = location.pathname.split('/')[1];
   if (current === "") return;
