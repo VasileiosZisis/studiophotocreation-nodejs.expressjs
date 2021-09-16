@@ -15,7 +15,7 @@ cloudinary.config ({
 });
 
 app.use(express.static(path.join(__dirname, '/public')));
-app.use(express.static(path.join(__dirname, '/assets')));
+app.use('/assets', express.static(path.join(__dirname, 'assets')));
 app.use(helmet({contentSecurityPolicy: false,}));
 
 app.set('view engine', 'ejs');
@@ -27,5 +27,5 @@ app.get('/', (req, res) => {
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-    console.log('Serving port ${port}')
+    console.log(`Serving port ${port}`)
 })
