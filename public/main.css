@@ -389,7 +389,8 @@ figure img {
 }
 
 .contact {
-  padding: 10px 50px 10px 10px;
+  margin: auto;
+  padding: 4px;
 }
 
 .contact-button {
@@ -412,7 +413,7 @@ figure img {
 
 .contact-button:hover .contact,
 .contact-button:focus .contact {
-  padding: 4px 50px 4px 4px;
+  padding: 0px;
 }
 
 .contact-text {

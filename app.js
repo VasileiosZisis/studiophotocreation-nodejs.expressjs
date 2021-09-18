@@ -92,6 +92,46 @@ app.get('/portfolio/english-weddings/2019', (req, res) => {
 app.get('/portfolio/english-weddings/kristen-james', (req, res) => {
     res.render('././portfolio/english-weddings/kristen-james')
 })
+//wedding-stories
+app.get('/portfolio/wedding-stories/amy-daniel', (req, res) => {
+    res.render('././portfolio/wedding-stories/amy-daniel')
+})
+app.get('/portfolio/wedding-stories/beth-david', (req, res) => {
+    res.render('././portfolio/wedding-stories/beth-david')
+})
+app.get('/portfolio/wedding-stories/farrah-matthew', (req, res) => {
+    res.render('././portfolio/wedding-stories/farrah-matthew')
+})
+app.get('/portfolio/wedding-stories/gemma-kane', (req, res) => {
+    res.render('././portfolio/wedding-stories/gemma-kane')
+})
+app.get('/portfolio/wedding-stories/jade-craig', (req, res) => {
+    res.render('././portfolio/wedding-stories/jade-craig')
+})
+app.get('/portfolio/wedding-stories/jemma-carl', (req, res) => {
+    res.render('././portfolio/wedding-stories/jemma-carl')
+})
+app.get('/portfolio/wedding-stories/katrina-scott', (req, res) => {
+    res.render('././portfolio/wedding-stories/katrina-scott')
+})
+app.get('/portfolio/wedding-stories/laura-leigh', (req, res) => {
+    res.render('././portfolio/wedding-stories/laura-leigh')
+})
+app.get('/portfolio/wedding-stories/laura-robert', (req, res) => {
+    res.render('././portfolio/wedding-stories/laura-robert')
+})
+app.get('/portfolio/wedding-stories/lauren-ben', (req, res) => {
+    res.render('././portfolio/wedding-stories/lauren-ben')
+})
+app.get('/portfolio/wedding-stories/lauren-simon', (req, res) => {
+    res.render('././portfolio/wedding-stories/lauren-simon')
+})
+app.get('/portfolio/wedding-stories/lisa-darren', (req, res) => {
+    res.render('././portfolio/wedding-stories/lisa-darren')
+})
+app.get('/portfolio/wedding-stories/stacey-aaron', (req, res) => {
+    res.render('././portfolio/wedding-stories/stacey-aaron')
+})
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
