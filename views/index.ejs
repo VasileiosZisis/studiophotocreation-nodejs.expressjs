@@ -64,187 +64,184 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKQR9QL" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div class="transition transition-1 is-active">
-        <img class="img-logo" src="/assets/logo-black.png">
-    </div>
-    <header>
-        <nav role="navigation" aria-label="main navigation">
-            <a class="title-logo" href="/">Dimitris Domouchtsis</a>
-            <ul class="navbar">
-                <li><a id="home" class="active" href="/">Home</a></li>
-                <li><a href="/portfolio">Portfolio</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
+
+    <%- include('partials/transition') %>
+
+        <nav>
+            <%- include('partials/navbar') %>
         </nav>
-    </header>
-    <main>
-        <section class="intro">
-            <video autoplay muted loop>
-                <source src="/assets/video.mp4" type="video/mp4">
-                Sorry, your browser doesn't support embedded videos.
-            </video>
-            <img src="/assets/logo_white.png" alt="logo">
-        </section>
-        <section class="main">
-            <div class="left">
-                <figure class="figure rellax left-img-1" data-rellax-speed="3">
-                    <img class="modal-IMG scale-img" src="/assets/Cards/Aron_Stacey.webp"
-                        alt="A photo preview of Aaron's and Stacey's wedding with captions">
-                </figure>
-                <figure class="figure rellax left-img-3" data-rellax-speed="2">
-                    <img class="modal-IMG scale-img" src="/assets/Cards/Celebrate.webp"
-                        alt="A photo with the bride accepting flowers from the maid with captions">
-                </figure>
-            </div>
-            <div class="middle">
-                <p class="middle-text">
-                    <span class="text">Providing you the finest footage of your wedding, christening, anniversary or any
-                        other celebration in photo and video</span>
-                </p>
-            </div>
-            <div class="right">
-                <figure class="figure rellax right-img-1" data-rellax-speed="4.5">
-                    <img class="modal-IMG scale-img" src="/assets/Cards/Leigh_Laura2.webp"
-                        alt="A photo preview of Leigh's and Laura's wedding with captions">
-                </figure>
-                <figure class="figure rellax right-img-2" data-rellax-speed="3">
-                    <img class="modal-IMG scale-img" src="/assets/Cards/LoveStory.webp"
-                        alt="A photo with the maids outside the car of the bride with captions">
-                </figure>
-                <figure class="figure rellax right-img-3" data-rellax-speed="2">
-                    <img class="modal-IMG scale-img" src="/assets/Cards/MeltMy.webp"
-                        alt="A photo with the married couple walking by the beach in multiple angles">
-                </figure>
-            </div>
-        </section>
-        <section class="second">
-            <div class="left-second">
-                <p class="left-text">
-                    <span class="text">Finding the most beautiful locations and venues for your dream wedding</span>
-                </p>
-            </div>
-            <div class="right-second">
-                <figure class="figure rellax right-second-img-1" data-rellax-speed="3">
-                    <img class="modal-IMG scale-img" src="/assets/Cypriot-Weddings/Maria-Andreas/DJI_0025.webp "
-                        alt="A photo from Maria's and Andreas's wedding">
-                </figure>
-                <figure class="figure rellax right-second-img-2" data-rellax-speed="4">
-                    <img class="modal-IMG scale-img" src="/assets/Cypriot-Weddings/Kata-Andreas/SPC_1903.webp"
-                        alt="A photo from Kata's and Andreas's wedding">
-                </figure>
-                <figure class="figure rellax right-second-img-3" data-rellax-speed="2">
-                    <img class="modal-IMG scale-img" src="/assets/English-Weddings/Kristen-James/SPC_0516.webp"
-                        alt="A photo from Kristen's and James's wedding">
-                </figure>
-                <figure class="figure rellax right-second-img-4" data-rellax-speed="3">
-                    <img class="modal-IMG scale-img" src="/assets/Cypriot-Weddings/Kristia-Alexis/SPC_2238.webp"
-                        alt="A photo from Kristia's and Alexis's wedding">
-                </figure>
-                <figure class="figure rellax right-second-img-5" data-rellax-speed="4">
-                    <img class="modal-IMG scale-img" src="/assets/Wedding-Stories/Stacey-Aaron/SPC_0339.webp"
-                        alt="A photo from Stacey's and Aaron's wedding">
-                </figure>
-            </div>
-        </section>
-        <section class="third">
-            <div class="top-third">
-                <p class="top-text">
-                    <span class="text">`` Dimitri's photography reflects his pure passion and inspiring character
-                        ``</span>
-                </p>
-            </div>
-            <div class="splide">
-                <div class="splide__track">
-                    <div class="splide__list">
-                        <img class="splide__slide" src="/assets/Cypriot-Weddings/Kata-Andreas/SPC_1741.webp"
-                            loading="lazy" alt="A photo from Kata's and Andreas's wedding">
-                        <img class="splide__slide" src="/assets/Cypriot-Weddings/Maria-Lampros/SPC_2355.webp"
-                            loading="lazy" alt="A photo from Maria's and Lampros's wedding">
-                        <img class="splide__slide" src="/assets/Wedding-Stories/Jemma-Carl/CARL JEMMA 13.webp"
-                            loading="lazy" alt="A photo from Jemma's and Carl's wedding">
-                        <img class="splide__slide" src="/assets/Cypriot-Weddings/Jennifer-Xaris/SPC_0655.webp"
-                            loading="lazy" alt="A photo from Jennifer's and Xaris's wedding">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="categories">
-            <h1>Visit My Work</h1>
-            <div class="categories-grid">
-                <div class="div-category">
-                    <div class="container-img">
-                        <img class="category-img scale-img" src="/assets/Cypriot-Weddings/Maria-Andreas/SPC_1179.webp"
-                            loading="lazy" alt="A photo from Maria's and Andreas's wedding">
-                    </div>
-                    <div class="categories-text">
-                        <a class="categories-button" href="/portfolio/cypriot-weddings">Cypriot
-                            Weddings</a>
-                    </div>
-                </div>
-                <div class="div-category">
-                    <div class="container-img">
-                        <img class="category-img scale-img" src="/assets/English-Weddings/Kristen-James/SPC_0010.webp"
-                            loading="lazy" alt="A photo from Kristen's and James's wedding">
-                    </div>
-                    <div class="categories-text">
-                        <a class="categories-button" href="/portfolio/englist-weddings">English Weddings</a>
-                    </div>
-                </div>
-                <div class="div-category">
-                    <div class="container-img">
-                        <img class="category-img scale-img" src="/assets/Wedding-Stories/Stacey-Aaron/SPC_0068.webp"
-                            loading="lazy" alt="A photo from Stacey's and Aaron's wedding">
-                    </div>
-                    <div class="categories-text">
-                        <a class="categories-button" href="/portfolio/wedding-stories">Wedding Stories</a>
-                    </div>
-                </div>
-                <div class="div-category">
-                    <div class="container-img">
-                        <img class="category-img scale-img" src="/assets/Christenings/Agapi/SPC_0828.webp"
-                            loading="lazy" alt="A photo from Agapi's chistening">
-                    </div>
-                    <div class="categories-text">
-                        <a class="categories-button" href="/portfolio/christenings">Christenings</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contact-section">
-            <div class="contact-container-img">
-                <div>
-                    <figure class="figure contact-left-img">
-                        <img class="modal-IMG scale-img" src="/assets/Cards/Ricky_Gemma.webp" loading="lazy"
-                            alt="A photo preview from Ricky's amd Gemma's wedding with captions">
+
+        <main>
+            <section class="intro">
+                <video autoplay muted loop>
+                    <source src="/assets/video.mp4" type="video/mp4">
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+                <img src="/assets/logo_white.png" alt="logo">
+            </section>
+            <section class="main">
+                <div class="left">
+                    <figure class="figure rellax left-img-1" data-rellax-speed="3">
+                        <img class="modal-IMG scale-img" src="/assets/Cards/Aron_Stacey.webp"
+                            alt="A photo preview of Aaron's and Stacey's wedding with captions">
+                    </figure>
+                    <figure class="figure rellax left-img-3" data-rellax-speed="2">
+                        <img class="modal-IMG scale-img" src="/assets/Cards/Celebrate.webp"
+                            alt="A photo with the bride accepting flowers from the maid with captions">
                     </figure>
                 </div>
-                <div>
-                    <figure class="figure contact-right-img">
-                        <img class="modal-IMG scale-img" src="/assets/Cards/SaveDate.webp" loading="lazy"
-                            alt="Bride in front of a painted wall in multiple shots with captions">
+                <div class="middle">
+                    <p class="middle-text">
+                        <span class="text">Providing you the finest footage of your wedding, christening, anniversary or
+                            any
+                            other celebration in photo and video</span>
+                    </p>
+                </div>
+                <div class="right">
+                    <figure class="figure rellax right-img-1" data-rellax-speed="4.5">
+                        <img class="modal-IMG scale-img" src="/assets/Cards/Leigh_Laura2.webp"
+                            alt="A photo preview of Leigh's and Laura's wedding with captions">
+                    </figure>
+                    <figure class="figure rellax right-img-2" data-rellax-speed="3">
+                        <img class="modal-IMG scale-img" src="/assets/Cards/LoveStory.webp"
+                            alt="A photo with the maids outside the car of the bride with captions">
+                    </figure>
+                    <figure class="figure rellax right-img-3" data-rellax-speed="2">
+                        <img class="modal-IMG scale-img" src="/assets/Cards/MeltMy.webp"
+                            alt="A photo with the married couple walking by the beach in multiple angles">
                     </figure>
                 </div>
-            </div>
-            <div class="contact-container-text">
-                <div class="contact">
-                    <a class="contact-button" href="/contact">Contact Me</a>
+            </section>
+            <section class="second">
+                <div class="left-second">
+                    <p class="left-text">
+                        <span class="text">Finding the most beautiful locations and venues for your dream wedding</span>
+                    </p>
                 </div>
-                <div class="contact-text">
-                    <p class="text">Let's talk and plan your wedding</p>
+                <div class="right-second">
+                    <figure class="figure rellax right-second-img-1" data-rellax-speed="3">
+                        <img class="modal-IMG scale-img" src="/assets/Cypriot-Weddings/Maria-Andreas/DJI_0025.webp "
+                            alt="A photo from Maria's and Andreas's wedding">
+                    </figure>
+                    <figure class="figure rellax right-second-img-2" data-rellax-speed="4">
+                        <img class="modal-IMG scale-img" src="/assets/Cypriot-Weddings/Kata-Andreas/SPC_1903.webp"
+                            alt="A photo from Kata's and Andreas's wedding">
+                    </figure>
+                    <figure class="figure rellax right-second-img-3" data-rellax-speed="2">
+                        <img class="modal-IMG scale-img" src="/assets/English-Weddings/Kristen-James/SPC_0516.webp"
+                            alt="A photo from Kristen's and James's wedding">
+                    </figure>
+                    <figure class="figure rellax right-second-img-4" data-rellax-speed="3">
+                        <img class="modal-IMG scale-img" src="/assets/Cypriot-Weddings/Kristia-Alexis/SPC_2238.webp"
+                            alt="A photo from Kristia's and Alexis's wedding">
+                    </figure>
+                    <figure class="figure rellax right-second-img-5" data-rellax-speed="4">
+                        <img class="modal-IMG scale-img" src="/assets/Wedding-Stories/Stacey-Aaron/SPC_0339.webp"
+                            alt="A photo from Stacey's and Aaron's wedding">
+                    </figure>
                 </div>
+            </section>
+            <section class="third">
+                <div class="top-third">
+                    <p class="top-text">
+                        <span class="text">`` Dimitri's photography reflects his pure passion and inspiring character
+                            ``</span>
+                    </p>
+                </div>
+                <div class="splide">
+                    <div class="splide__track">
+                        <div class="splide__list">
+                            <img class="splide__slide" src="/assets/Cypriot-Weddings/Kata-Andreas/SPC_1741.webp"
+                                loading="lazy" alt="A photo from Kata's and Andreas's wedding">
+                            <img class="splide__slide" src="/assets/Cypriot-Weddings/Maria-Lampros/SPC_2355.webp"
+                                loading="lazy" alt="A photo from Maria's and Lampros's wedding">
+                            <img class="splide__slide" src="/assets/Wedding-Stories/Jemma-Carl/CARL JEMMA 13.webp"
+                                loading="lazy" alt="A photo from Jemma's and Carl's wedding">
+                            <img class="splide__slide" src="/assets/Cypriot-Weddings/Jennifer-Xaris/SPC_0655.webp"
+                                loading="lazy" alt="A photo from Jennifer's and Xaris's wedding">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="categories">
+                <h1>Visit My Work</h1>
+                <div class="categories-grid">
+                    <div class="div-category">
+                        <div class="container-img">
+                            <img class="category-img scale-img"
+                                src="/assets/Cypriot-Weddings/Maria-Andreas/SPC_1179.webp" loading="lazy"
+                                alt="A photo from Maria's and Andreas's wedding">
+                        </div>
+                        <div class="categories-text">
+                            <a class="categories-button" href="/portfolio/cypriot-weddings">Cypriot
+                                Weddings</a>
+                        </div>
+                    </div>
+                    <div class="div-category">
+                        <div class="container-img">
+                            <img class="category-img scale-img"
+                                src="/assets/English-Weddings/Kristen-James/SPC_0010.webp" loading="lazy"
+                                alt="A photo from Kristen's and James's wedding">
+                        </div>
+                        <div class="categories-text">
+                            <a class="categories-button" href="/portfolio/englist-weddings">English Weddings</a>
+                        </div>
+                    </div>
+                    <div class="div-category">
+                        <div class="container-img">
+                            <img class="category-img scale-img" src="/assets/Wedding-Stories/Stacey-Aaron/SPC_0068.webp"
+                                loading="lazy" alt="A photo from Stacey's and Aaron's wedding">
+                        </div>
+                        <div class="categories-text">
+                            <a class="categories-button" href="/portfolio/wedding-stories">Wedding Stories</a>
+                        </div>
+                    </div>
+                    <div class="div-category">
+                        <div class="container-img">
+                            <img class="category-img scale-img" src="/assets/Christenings/Agapi/SPC_0828.webp"
+                                loading="lazy" alt="A photo from Agapi's chistening">
+                        </div>
+                        <div class="categories-text">
+                            <a class="categories-button" href="/portfolio/christenings">Christenings</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-section">
+                <div class="contact-container-img">
+                    <div>
+                        <figure class="figure contact-left-img">
+                            <img class="modal-IMG scale-img" src="/assets/Cards/Ricky_Gemma.webp" loading="lazy"
+                                alt="A photo preview from Ricky's amd Gemma's wedding with captions">
+                        </figure>
+                    </div>
+                    <div>
+                        <figure class="figure contact-right-img">
+                            <img class="modal-IMG scale-img" src="/assets/Cards/SaveDate.webp" loading="lazy"
+                                alt="Bride in front of a painted wall in multiple shots with captions">
+                        </figure>
+                    </div>
+                </div>
+                <div class="contact-container-text">
+                    <div class="contact">
+                        <a class="contact-button" href="/contact">Contact Me</a>
+                    </div>
+                    <div class="contact-text">
+                        <p class="text">Let's talk and plan your wedding</p>
+                    </div>
+                </div>
+            </section>
+            <div class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content">
             </div>
-        </section>
-        <div class="modal">
-            <span class="close">&times;</span>
-            <img class="modal-content">
-        </div>
-    </main>
-    <footer>
-        <p>Copyright © 2021 Photography Dimitris Domouchtsis/Studio Photo Creation</p>
-        <p>This website uses Google Analytics</p>
-        <p class="sign">Created by <a href="https://www.vasiliszisis.me/">Vasilis Zisis</a></p>
-    </footer>
-    <script src="/main.js"></script>
+        </main>
+
+        <footer>
+            <%- include('partials/footer') %>
+        </footer>
+
+        <script src="/main.js"></script>
 </body>
 
 </html>

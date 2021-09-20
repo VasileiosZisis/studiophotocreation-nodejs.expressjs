@@ -3,7 +3,7 @@
 
 <head>
 
-    <%- include('partials/head') %>
+    <%- include('../partials/head') %>
 
         <meta name="description"
             content="A complete list of english weddings from wedding photographer Dimitris Domouchtsis">
@@ -16,56 +16,53 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKQR9QL" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <div class="transition transition-1 is-active">
-        <img class="img-logo" src="/assets/logo-black.png">
-    </div>
 
-    <nav role="navigation">
-        <a class="title-logo" href="/">Dimitris Domouchtsis</a>
-        <ul class="navbar">
-            <li><a id="home" class="active" href="/">Home</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section class="main-portfolio">
-            <div class="left-portfolio">
-                <figure class="portfolio-figure rellax left-portfolio-img-1" data-rellax-speed="3">
-                    <img src="/assets/English-Weddings/Kristen-James/SPC_0885.webp"
-                        alt="A photo from Kristen's and James's wedding">
-                </figure>
-            </div>
-            <div class="middle-portfolio">
-                <div class="text-portfolio">
-                    <a class="categories-button" href="/portfolio/english-weddings/kristen-james">Kristen-James</a>
-                </div>
-                <div class="text-portfolio">
-                    <a class="categories-button" href="/portfolio/english-weddings/2019">2019</a>
-                </div>
-            </div>
-            <div class="middle-portfolio-750px">
-                <div class="div-category">
-                    <div class="container-img">
-                        <img class="category-img scale-img" src="/assets/English-Weddings/Kristen-James/SPC_0885.webp"
+    <%- include('../partials/transition') %>
+
+        <nav>
+            <%- include('../partials/navbar') %>
+        </nav>
+
+        <main>
+            <section class="main-portfolio">
+                <div class="left-portfolio">
+                    <figure class="portfolio-figure rellax left-portfolio-img-1" data-rellax-speed="3">
+                        <img src="/assets/English-Weddings/Kristen-James/SPC_0885.webp"
                             alt="A photo from Kristen's and James's wedding">
-                    </div>
-                    <div class="categories-text">
+                    </figure>
+                </div>
+                <div class="middle-portfolio">
+                    <div class="text-portfolio">
                         <a class="categories-button" href="/portfolio/english-weddings/kristen-james">Kristen-James</a>
                     </div>
-                    <div class="categories-text">
+                    <div class="text-portfolio">
                         <a class="categories-button" href="/portfolio/english-weddings/2019">2019</a>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>Copyright © 2021 Photography Dimitris Domouchtsis/Studio Photo Creation</p>
-        <p>This website uses Google Analytics</p>
-        <p class="sign">Created by <a href="https://www.vasiliszisis.me/">Vasilis Zisis</a></p>
-    </footer>
-    <script src="/main.js"></script>
+                <div class="middle-portfolio-750px">
+                    <div class="div-category">
+                        <div class="container-img">
+                            <img class="category-img scale-img"
+                                src="/assets/English-Weddings/Kristen-James/SPC_0885.webp"
+                                alt="A photo from Kristen's and James's wedding">
+                        </div>
+                        <div class="categories-text">
+                            <a class="categories-button"
+                                href="/portfolio/english-weddings/kristen-james">Kristen-James</a>
+                        </div>
+                        <div class="categories-text">
+                            <a class="categories-button" href="/portfolio/english-weddings/2019">2019</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <%- include('../partials/footer') %>
+        </footer>
+
+        <script src="/main.js"></script>
 </body>
 
 </html>
