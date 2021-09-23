@@ -623,6 +623,10 @@ footer {
   font-size: 2rem;
 }
 
+.text-contact a {
+  text-decoration: underline;
+}
+
 .contact-final {
   background-color: var(--red);
   background-image: url("https://res.cloudinary.com/dmdbza74n/image/upload/v1632241841/studiophotocreation/img-noise_c2pk0b.png");
