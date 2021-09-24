@@ -164,6 +164,8 @@ figure img {
   -ms-display: grid;
   display: grid;
   word-wrap: normal;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .right-img-1 {
@@ -175,7 +177,7 @@ figure img {
 .right-img-2 {
   position: absolute;
   top: 85%;
-  left: 0%;
+  left: 10%;
 }
 
 .right-img-3 {
