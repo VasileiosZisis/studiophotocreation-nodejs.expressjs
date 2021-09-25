@@ -15,7 +15,7 @@ cloudinary.config ({
 });
 
 app.use(express.static(path.join(__dirname, '/public')));
-app.use('/assets', express.static(path.join(__dirname, 'assets')));
+// app.use('/assets', express.static(path.join(__dirname, 'assets')));
 app.use(helmet({contentSecurityPolicy: false,}));
 
 app.set('view engine', 'ejs');
