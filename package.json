@@ -16,7 +16,6 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/GoneAway/studiophotocreation#readme",
   "dependencies": {
-    "@splidejs/splide": "^2.4.21",
     "cloudinary": "^1.27.0",
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
