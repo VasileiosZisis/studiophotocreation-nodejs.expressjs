@@ -191,6 +191,7 @@
   nav {
     padding: 1rem 4rem;
   }
+  #breadcrumb a,
   .navbar a,
   .title-logo,
   footer {
@@ -390,6 +391,7 @@
   .navbar li {
     padding: 0rem 0.1rem;
   }
+  #breadcrumb a,
   .navbar a,
   .title-logo,
   footer {
