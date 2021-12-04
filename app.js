@@ -95,11 +95,35 @@ app.get('/portfolio/cypriot-weddings/maria-lampros', (req, res) => {
     res.render('././portfolio/cypriot-weddings/maria-lampros')
 })
 //english-weddings
-app.get('/portfolio/english-weddings/2019', (req, res) => {
-    res.render('././portfolio/english-weddings/2019')
+app.get('/portfolio/english-weddings/christina-kyle', (req, res) => {
+    res.render('././portfolio/english-weddings/christina-kyle')
+})
+app.get('/portfolio/english-weddings/danielle-nikole', (req, res) => {
+    res.render('././portfolio/english-weddings/danielle-nikole')
+})
+app.get('/portfolio/english-weddings/denika-david', (req, res) => {
+    res.render('././portfolio/english-weddings/denika-david')
+})
+app.get('/portfolio/english-weddings/dianne-terry', (req, res) => {
+    res.render('././portfolio/english-weddings/dianne-terry')
 })
 app.get('/portfolio/english-weddings/kristen-james', (req, res) => {
     res.render('././portfolio/english-weddings/kristen-james')
+})
+app.get('/portfolio/english-weddings/megan-lee', (req, res) => {
+    res.render('././portfolio/english-weddings/megan-lee')
+})
+app.get('/portfolio/english-weddings/rebecca-alvaro', (req, res) => {
+    res.render('././portfolio/english-weddings/rebecca-alvaro')
+})
+app.get('/portfolio/english-weddings/rhian-sean', (req, res) => {
+    res.render('././portfolio/english-weddings/rhian-sean')
+})
+app.get('/portfolio/english-weddings/sophie-jack', (req, res) => {
+    res.render('././portfolio/english-weddings/sophie-jack')
+})
+app.get('/portfolio/english-weddings/2019', (req, res) => {
+    res.render('././portfolio/english-weddings/2019')
 })
 //wedding-stories
 app.get('/portfolio/wedding-stories/amy-daniel', (req, res) => {

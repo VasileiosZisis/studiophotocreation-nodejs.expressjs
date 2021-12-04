@@ -43,12 +43,12 @@ nav {
   z-index: 1;
 }
 
-.navbar-top {  
+.navbar-top {
   display: flex;
   display: -ms-flexbox;
   display: -webkit-flex;
   flex-direction: row;
-  justify-content: space-between;    
+  justify-content: space-between;
 }
 
 .navbar {
@@ -483,6 +483,7 @@ footer {
 
 .middle-portfolio-750px {
   display: none;
+  margin-top: 2.5rem;
 }
 
 .middle-portfolio > div {
