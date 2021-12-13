@@ -1,3 +1,4 @@
+/* 1550px */
 @media only screen and (max-width: 96.875em) {
   .left-img-1 {
     top: 45%;
@@ -12,7 +13,7 @@
     top: 155%;
   }
 }
-
+/* 1500px */
 @media only screen and (max-width: 93.75em) {
   .contact-img-2 {
     left: 1%;
@@ -21,19 +22,19 @@
     left: 79%;
   }
 }
-
+/* 1450px */
 @media only screen and (max-width: 90.625em) {
   .right-second-img-3 {
     top: 95%;
   }
 }
-
+/* 1350px */
 @media only screen and (max-width: 84.375em) {
   .contact-img-2 {
     display: none;
   }
 }
-
+/* 1300px */
 @media only screen and (max-width: 81.25em) {
   .right-second-img-1 {
     top: 70%;
@@ -48,14 +49,11 @@
     top: 145%;
   }
 }
-
+/* 1250px */
 @media only screen and (max-width: 78.125em) {
   .contact-img-5 {
     display: none;
   }
-  /* .contact {
-    padding-right: 10px;
-  } */
   .contact-text {
     padding-right: 10px;
   }
@@ -66,7 +64,7 @@
     left: 10%;
   }
 }
-
+/* 1180px */
 @media only screen and (max-width: 73.75em) {
   .main {
     grid:
@@ -113,7 +111,7 @@
     padding: 0.5rem;
   }
 }
-
+/* 1150px */
 @media only screen and (max-width: 71.875em) {
   .right-second-img-1 {
     top: 100%;
@@ -138,13 +136,13 @@
     height: 450px;
   }
 }
-
+/* 1100px */
 @media only screen and (max-width: 68.75em) {
   .portfolio-figure img {
     max-width: 200px;
   }
 }
-
+/* 1000px */
 @media only screen and (max-width: 62.5em) {
   .right-second-img-1 {
     top: 100%;
@@ -185,8 +183,18 @@
   .left-portfolio-img-4 {
     left: 5%;
   }
+  .right-portfolio-img-3 {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+  }
+  .right-portfolio-img-4 {
+    position: absolute;
+    top: 80%;
+    left: 15%;
+  }
 }
-
+/* 900px */
 @media only screen and (max-width: 56.25em) {
   nav {
     padding: 1rem 4rem;
@@ -233,12 +241,17 @@
   .contact-final {
     grid-template-columns: 100%;
   }
+  .contact-img-6 {
+    position: absolute;
+    top: 70%;
+    left: 55%;
+  }
   .map {
     padding: 2rem 0rem 2rem 0rem;
     height: 500px;
   }
 }
-
+/* 800px */
 @media only screen and (max-width: 50em) {
   .contact-img-1 {
     left: 10%;
@@ -254,7 +267,7 @@
     width: 250px;
   }
 }
-
+/* 750px */
 @media only screen and (max-width: 46.875em) {
   .container-img {
     width: 300px;
@@ -279,14 +292,14 @@
   .main-photogrid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .contact-figure img {
+    max-width: 250px;
+  }
 }
-
+/* 650px */
 @media only screen and (max-width: 40.625em) {
   .container-img {
     width: 250px;
-  }
-  .contact-figure img {
-    max-width: 250px;
   }
   .contact-left-img {
     top: 5%;
@@ -306,7 +319,7 @@
     grid-template-rows: 1fr 1fr;
   }
 }
-
+/* 600px */
 @media only screen and (max-width: 37.5em) {
   nav {
     padding: 1rem 1rem;
@@ -324,7 +337,7 @@
     top: 110%;
   }
 }
-
+/* 560px */
 @media only screen and (max-width: 35em) {
   .div-category {
     -ms-display: grid;
@@ -346,8 +359,11 @@
   .contact-img-6 {
     left: 50%;
   }
+  .text-contact {
+    padding: 2rem 1rem 0rem 1rem;
+  }
 }
-
+/* 500px */
 @media only screen and (max-width: 31.25em) {
   nav {
     padding: 1rem 0.5rem;
@@ -368,7 +384,7 @@
     left: 40%;
   }
 }
-
+/* 450px */
 @media only screen and (max-width: 28.125em) {
   .navbar li {
     padding: 0rem 0.2rem;
@@ -382,8 +398,14 @@
   .main-photogrid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .text-contact {
+    padding: 2rem 0rem 0rem 0rem;
+  }
+  .contact-figure img {
+    max-width: 210px;
+  }
 }
-
+/* 400px */
 @media only screen and (max-width: 25em) {
   nav {
     padding: 1rem 0rem;
@@ -399,11 +421,5 @@
   }
   .container-img {
     width: 280px;
-  }
-  .contact-figure img {
-    max-width: 210px;
-  }
-  .text-contact {
-    padding: 2rem 0rem 0rem 0rem;
   }
 }
