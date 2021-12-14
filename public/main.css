@@ -188,6 +188,13 @@ figure img {
   padding-right: 0.5rem;
 }
 
+.right-img-1 {
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  padding-right: 1.7rem;
+}
+
 .right-img-2 {
   position: absolute;
   top: 85%;
