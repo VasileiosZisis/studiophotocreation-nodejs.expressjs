@@ -308,10 +308,7 @@
     height: 180px;
   }
   .contact-right-img {
-    top: 25%;
-    left: 25%;
-    width: 200px;
-    height: 200px;
+    display: none;
   }
   .contact-section {
     height: 85vh;
