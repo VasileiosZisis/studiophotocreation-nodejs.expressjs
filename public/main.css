@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 :root {
   --white: #f7f7f7;
@@ -21,7 +21,7 @@
 html,
 body {
   height: 100%;
-  font-family: "Courgette", cursive;
+  font-family: "Playfair Display", serif;
 }
 
 nav {
@@ -366,13 +366,13 @@ figure img {
   background-color: var(--black);
   background-image: url("https://res.cloudinary.com/dmdbza74n/image/upload/v1632241841/studiophotocreation/img-noise_c2pk0b.png");
   color: var(--white);
-  letter-spacing: 0.1rem;
+  font-weight: 600;
   font-size: 2rem;
-  font-weight: 400;
   border: 6px double var(--white);
   border-radius: 5px;
   transition: border 0.2s;
   display: inline-block;
+  font-family: "Open Sans", sans-serif;
 }
 
 .categories-button:hover,
@@ -427,12 +427,12 @@ figure img {
   background-color: var(--red);
   color: var(--white);
   font-size: 2rem;
-  font-weight: 400;
-  letter-spacing: 0.1rem;
+  font-weight: 600;
   border: 6px double var(--white);
   border-radius: 5px;
   transition: border 0.4s;
   display: inline-block;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contact-button:hover,
@@ -645,7 +645,6 @@ footer {
 
 .text-contact {
   padding: 2rem 6rem 0rem 6rem;
-  font-family: "Open Sans", sans-serif;
 }
 
 .text-contact p,
@@ -656,6 +655,7 @@ footer {
 
 .text-contact a {
   text-decoration: underline;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contact-final {
