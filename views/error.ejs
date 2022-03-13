@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <%- include('partials/head') %>
+
+    <meta name="description" content="Error page">
+    <title>Error - Studio Photo Creation by D</title>
+
+</head>
+
+<body>
+
+    <%- include('partials/transition') %>
+
+    <nav>
+        <%- include('partials/navbar') %>
+    </nav>
+
+    <main>
+        <section class="main-contact">
+            <div class="title-contact">
+                <h1><%=err.message%></h1>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <%- include('partials/footer') %>
+    </footer>
+
+    <script src="/main.js"></script>
+</body>
+
+</html>
