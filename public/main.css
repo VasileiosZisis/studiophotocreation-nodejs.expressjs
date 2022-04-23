@@ -139,8 +139,7 @@ nav {
 }
 
 .figure {
-  min-width: 150px;
-  max-width: 20vw;
+  width: max(300px, 150px);
   height: auto;
 }
 
@@ -186,8 +185,11 @@ figure img {
   -ms-display: grid;
   display: grid;
   word-wrap: normal;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding: 1rem;
+}
+
+.right {
+  margin-top: 3rem;
 }
 
 .right-img-1 {
@@ -306,8 +308,9 @@ figure img {
 /* THIRD SECTION */
 /* CATEGORIES */
 .categories {
+  box-shadow: inset 0 0 150px var(--black);
   background-color: var(--black);
-  background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1632241841/studiophotocreation/img-noise_c2pk0b.png');
+  background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1650729681/studiophotocreation/black-noise_ta3g1g.webp');
   padding-top: 5rem;
   padding-bottom: 5rem;
   padding-left: 2rem;
@@ -367,8 +370,9 @@ figure img {
 }
 
 .categories-button {
+  box-shadow: inset 0 0 150px var(--black);
   background-color: var(--black);
-  background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1632241841/studiophotocreation/img-noise_c2pk0b.png');
+  background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1650729681/studiophotocreation/black-noise_ta3g1g.webp');
   color: var(--white);
   font-weight: 600;
   font-size: 2rem;
@@ -398,7 +402,7 @@ figure img {
   -ms-display: grid;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  box-shadow: inset 0 0 150px var(--white);
+  box-shadow: inset 0 0 150px var(--black);
   position: relative;
 }
 
@@ -489,9 +493,9 @@ footer {
 /* MAIN-PORTFOLIO */
 .main-portfolio {
   min-height: 150vh;
+  box-shadow: inset 0 0 150px var(--black);
   background-color: var(--black);
-  background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1632241841/studiophotocreation/img-noise_c2pk0b.png');
-  box-shadow: inset 0 0 150px var(--white);
+  background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1650729681/studiophotocreation/black-noise_ta3g1g.webp');
   -ms-display: grid;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -509,9 +513,6 @@ footer {
 }
 
 .portfolio-figure img {
-  min-width: 150px;
-  max-width: 300px;
-  height: auto;
   border-radius: 2%;
 }
 
@@ -535,7 +536,7 @@ footer {
 .right-portfolio-img-3 {
   position: absolute;
   top: 60%;
-  left: 35%;
+  left: 15%;
 }
 
 .right-portfolio-img-4 {
@@ -552,19 +553,19 @@ footer {
 .left-portfolio-img-1 {
   position: absolute;
   top: 20%;
-  left: 20%;
+  left: 5%;
 }
 
 .left-portfolio-img-2 {
   position: absolute;
   top: 40%;
-  left: 50%;
+  left: 20%;
 }
 
 .left-portfolio-img-3 {
   position: absolute;
   top: 50%;
-  left: 45%;
+  left: 25%;
 }
 
 .left-portfolio-img-4 {
@@ -587,17 +588,17 @@ footer {
 
 .title-contact {
   text-align: center;
+  position: relative;
+  z-index: 10;
 }
 
 .title-contact h1 {
   font-size: 3rem;
   color: var(--black);
+  text-shadow: 0 0 6px #f7f7f7;
 }
 
 .contact-figure img {
-  min-width: 150px;
-  max-width: 300px;
-  height: auto;
   border-radius: 2%;
 }
 
@@ -615,13 +616,13 @@ footer {
 
 .contact-img-3 {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 25%;
 }
 
 .contact-img-4 {
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 55%;
 }
 
@@ -638,8 +639,9 @@ footer {
 }
 
 .contact-details {
+  box-shadow: inset 0 0 150px var(--black);
   background-color: var(--black);
-  background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1632241841/studiophotocreation/img-noise_c2pk0b.png');
+  background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1650729681/studiophotocreation/black-noise_ta3g1g.webp');
   min-height: 70vh;
   -ms-display: grid;
   display: grid;
@@ -666,7 +668,7 @@ footer {
 .contact-final {
   background-color: var(--red);
   background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1636566609/studiophotocreation/noise-new-transparent_zixdxd.webp');
-  box-shadow: inset 0 0 150px var(--white);
+  box-shadow: inset 0 0 150px var(--black);
   padding-top: 5rem;
   min-height: 70vh;
   -ms-display: grid;
