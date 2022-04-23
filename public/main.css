@@ -514,6 +514,8 @@ footer {
 
 .portfolio-figure img {
   border-radius: 2%;
+  width: max(300px, 150px);
+  height: auto;
 }
 
 .right-portfolio {
@@ -600,6 +602,8 @@ footer {
 
 .contact-figure img {
   border-radius: 2%;
+  width: max(300px, 150px);
+  height: auto;
 }
 
 .contact-img-1 {
