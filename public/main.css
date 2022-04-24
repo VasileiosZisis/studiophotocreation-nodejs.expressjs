@@ -404,6 +404,7 @@ figure img {
   grid-template-columns: 1fr 1fr;
   box-shadow: inset 0 0 150px var(--black);
   position: relative;
+  overflow-x: hidden;
 }
 
 .contact-left-img {
