@@ -39,7 +39,6 @@
   }
   .contact-section {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
   }
   .contact-left-img {
     left: 15%;

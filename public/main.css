@@ -67,7 +67,7 @@ nav {
 .navbar a,
 .title-logo {
   color: var(--black);
-  font-size: 1.1.5rem;
+  font-size: 1.5rem;
   font-weight: 600;
   transition: border 0.4s;
   border: 5px double transparent;
@@ -139,7 +139,7 @@ nav {
 }
 
 .figure {
-  width: max(300px, 150px);
+  width: max(17vw, 150px);
   height: auto;
 }
 
@@ -181,7 +181,7 @@ figure img {
 
 .middle-text {
   text-align: center;
-  font-size: clamp(1.5rem, 2vw, 2.1rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
   -ms-display: grid;
   display: grid;
   word-wrap: normal;
@@ -236,7 +236,7 @@ figure img {
 }
 
 .left-text {
-  font-size: clamp(1.5rem, 2vw, 2.1rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
   text-align: center;
   -ms-display: grid;
   display: grid;
@@ -284,7 +284,7 @@ figure img {
 
 .top-text {
   text-align: center;
-  font-size: clamp(1.5rem, 2vw, 2.1rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
   -ms-display: grid;
   display: grid;
   word-wrap: normal;
@@ -375,7 +375,7 @@ figure img {
   background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1650729681/studiophotocreation/black-noise_ta3g1g.webp');
   color: var(--white);
   font-weight: 600;
-  font-size: clamp(1.5rem, 2vw, 2.1rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
   border: 6px double var(--white);
   border-radius: 5px;
   transition: border 0.2s;
@@ -408,14 +408,14 @@ figure img {
 }
 
 .contact-left-img {
-  height: 40vh;
+  height: auto;
   position: absolute;
   top: 10%;
   left: 10%;
 }
 
 .contact-right-img {
-  height: 40vh;
+  height: auto;
   position: absolute;
   top: 40%;
   left: 25%;
@@ -436,7 +436,7 @@ figure img {
 .contact-button {
   background-color: var(--red);
   color: var(--white);
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 2vw, 2rem);
   font-weight: 600;
   border: 6px double var(--white);
   border-radius: 5px;
@@ -458,7 +458,7 @@ figure img {
 
 .contact-text {
   color: var(--white);
-  font-size: clamp(1.5rem, 2vw, 2.1rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
   text-align: start;
   -ms-display: grid;
   display: grid;
@@ -517,7 +517,7 @@ footer {
 
 .portfolio-figure img {
   border-radius: 2%;
-  width: max(300px, 150px);
+  width: max(17vw, 150px);
   height: auto;
 }
 
@@ -583,7 +583,7 @@ footer {
 .main-contact {
   background-color: var(--white);
   background-image: url('https://res.cloudinary.com/dmdbza74n/image/upload/v1636566609/studiophotocreation/noise-new-transparent_zixdxd.webp');
-  min-height: 100vh;
+  height: 100vh;
   -ms-display: grid;
   display: grid;
   place-content: center;
@@ -606,8 +606,8 @@ footer {
 
 .contact-figure img {
   border-radius: 2%;
-  width: max(300px, 150px);
-  height: 25vh;
+  width: max(17vw, 150px);
+  height: auto;
 }
 
 .contact-img-1 {
@@ -653,7 +653,7 @@ footer {
 .text-contact p,
 .text-contact a {
   color: var(--white);
-  font-size: clamp(1.5rem, 2vw, 2.1rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
 }
 
 .text-contact a {
@@ -681,7 +681,7 @@ footer {
 .address-text {
   text-align: center;
   padding-bottom: 5rem;
-  font-size: clamp(1.5rem, 2vw, 2.1rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
   color: var(--white);
 }
 
