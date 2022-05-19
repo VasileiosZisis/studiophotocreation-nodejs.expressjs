@@ -158,7 +158,7 @@ figure img {
   position: relative;
   -webkit-animation: shake 0.4s;
   animation: shake 0.4s;
-  z-index: 99;
+  z-index: 1;
 }
 
 .left-img-1 {
