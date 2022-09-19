@@ -51,7 +51,7 @@ addEventListener('DOMContentLoaded', (event) => {
 
   setTimeout(() => {
     transitionEle.classList.remove('is-active');
-  }, 500);
+  }, 300);
 
   for (let i = 0; i < anchors.length; i++) {
     const anchor = anchors[i];
@@ -64,7 +64,7 @@ addEventListener('DOMContentLoaded', (event) => {
 
       setTimeout(() => {
         window.location.href = target;
-      }, 500);
+      }, 300);
     });
   }
 });

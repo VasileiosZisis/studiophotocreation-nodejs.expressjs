@@ -195,6 +195,10 @@
   .text-contact {
     padding: 2rem 0rem 0rem 0rem;
   }
+  .text-contact p,
+  .text-contact a {
+    font-size: 1rem;
+  }
 }
 /* 400px */
 @media only screen and (max-width: 25em) {

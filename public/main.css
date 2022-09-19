@@ -70,7 +70,7 @@ nav {
   font-size: 1.5rem;
   font-weight: 600;
   transition: border 0.4s;
-  border: 5px double transparent;
+  border: 3px solid transparent;
 }
 
 #breadcrumb a:active,
@@ -79,7 +79,8 @@ nav {
 .navbar a.active,
 .navbar a:hover,
 .navbar a:focus {
-  border: 5px double var(--black);
+  border: 3px solid var(--black);
+  transition: border 0.4s;
 }
 /* INTRO SECTION */
 .intro {
@@ -370,14 +371,13 @@ figure img {
 }
 
 .categories-button {
-  box-shadow: 0 0 8px var(--white);
   background-color: var(--black);
   color: var(--white);
   font-weight: 600;
   font-size: clamp(1.5rem, 2vw, 2rem);
-  border: 6px double var(--white);
+  border: 3px solid var(--white);
   border-radius: 5px;
-  transition: border 0.2s;
+  transition: 0.2s;
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
 }
@@ -385,7 +385,8 @@ figure img {
 .categories-button:hover,
 .categories-button:focus {
   cursor: pointer;
-  border: 10px double var(--white);
+  border: 3px solid var(--white);
+  box-shadow: 0 0 8px var(--white);
 }
 
 .categories-button:hover .categories-text,
@@ -433,14 +434,13 @@ figure img {
 }
 
 .contact-button {
-  box-shadow: 0 0 8px var(--white);
   background-color: var(--red);
   color: var(--white);
   font-weight: 600;
   font-size: clamp(1.5rem, 2vw, 2rem);
-  border: 6px double var(--white);
+  border: 3px solid var(--white);
   border-radius: 5px;
-  transition: border 0.2s;
+  transition: 0.2s;
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
 }
@@ -448,7 +448,8 @@ figure img {
 .contact-button:hover,
 .contact-button:focus {
   cursor: pointer;
-  border: 10px double var(--white);
+  border: 3px solid var(--white);
+  box-shadow: 0 0 8px var(--white);
 }
 
 .contact-button:hover .contact,
