@@ -372,11 +372,14 @@ figure img {
 
 .categories-button {
   background-color: var(--black);
+  letter-spacing: 2%;
+  padding-block: 0.2rem;
+  padding-inline: 0.4rem;
   color: var(--white);
   font-weight: 600;
   font-size: clamp(1.5rem, 2vw, 2rem);
   border: 3px solid var(--white);
-  border-radius: 5px;
+  border-radius: 10px;
   transition: 0.2s;
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
@@ -385,7 +388,6 @@ figure img {
 .categories-button:hover,
 .categories-button:focus {
   cursor: pointer;
-  border: 3px solid var(--white);
   box-shadow: 0 0 8px var(--white);
 }
 
@@ -434,6 +436,9 @@ figure img {
 }
 
 .contact-button {
+  letter-spacing: 2%;
+  padding-block: 0.2rem;
+  padding-inline: 0.4rem;
   background-color: var(--red);
   color: var(--white);
   font-weight: 600;
