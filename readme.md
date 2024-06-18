@@ -1,6 +1,6 @@
 # Studio Photocreation
 
-Visit the website [here](https://www.studiophotocreationbyd.com/)
+An old design of [this website](https://www.studiophotocreationbyd.com/). New version is made with react.
 
 ### A portfolio website for a wedding photographer.
 
